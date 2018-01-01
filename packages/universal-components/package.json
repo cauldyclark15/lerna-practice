@@ -1,0 +1,37 @@
+{
+  "name": "@fiddle/universal-components",
+  "version": "1.0.0",
+  "description": "fiddle universal components",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@storybook/react": "^3.3.1",
+    "babel-minify-webpack-plugin": "^0.2.0",
+    "babel-plugin-module-resolver": "^3.0.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "enzyme": "^3.2.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "enzyme-to-json": "^3.3.0",
+    "friendly-errors-webpack-plugin": "^1.6.1",
+    "jest": "^22.0.4",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-native-web": "^0.2.2"
+  },
+  "peerDependencies": {
+    "prop-types": ">=15",
+    "react": ">=15",
+    "react-dom": ">=15",
+    "react-native": ">=0.42",
+    "react-native-web": ">=0.0.129"
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 9001 -c .storybook",
+    "build": "build-storybook",
+    "test": "jest"
+  }
+}
