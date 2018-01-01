@@ -55,7 +55,6 @@ class Button extends Component {
       ' > V E R S I O N:  ',
       Platform.Version
     );
-    console.log('+++++++++ TEST TEST TEST');
     const {
       backgroundColor = '#1abc9c',
       fontColor = 'white',
